@@ -1,0 +1,15 @@
+skip 6
+
+fields num, date, description, type, valeur, id, amount, sign
+
+date-format %-d/%-m/%Y
+separator ;
+
+currency EUR
+
+account1 expenses:unknown
+account2 assets:alpha
+
+if %sign C
+  account1 assets:alpha
+  account2 income:other

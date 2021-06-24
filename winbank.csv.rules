@@ -1,0 +1,15 @@
+skip 6
+
+fields num, date, valeur, amount, description
+
+#date-format %-d/%-m/%Y
+separator ;
+
+currency EUR
+
+account2 income:other
+account1 assets:peiraios
+
+if %amount -
+  account2 expenses:unknown
+  account1 assets:peiraios
