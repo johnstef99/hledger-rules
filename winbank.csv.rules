@@ -1,5 +1,3 @@
-skip 6
-
 fields num, date, valeur, amount, description
 
 #date-format %-d/%-m/%Y
