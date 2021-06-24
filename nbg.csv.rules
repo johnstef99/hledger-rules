@@ -1,0 +1,15 @@
+skip 1
+
+fields num, i1, i2, i3, date, i4, i5, i6, i7, amount, i8, type, description
+
+date-format %-d/%-m/%Y
+separator ,
+
+currency EUR
+
+account1 expenses:unknown
+account2 assets:nbg
+
+if %type Π
+  account1 assets:nbg
+  account2 income:other

@@ -5,6 +5,7 @@ Here you will find rules to import statements from Greek banks to hledger
 Banks:
 * Alpha
 * Winbank(Peiraios)
+* NBG(National Bank of Greek)
 
 ## What is hledger
 
